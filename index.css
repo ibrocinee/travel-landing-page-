@@ -1,0 +1,318 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.header{
+    height: 80vh;
+    width: 100%;
+    background-image: url(./image/pexels-monstera-7412074.jpg);
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 5vh;
+    text-align: center;
+    background-color: white;
+}
+nav h3{
+    color: blue;
+    padding-left: 100px;
+    font-size: 20px;
+}
+nav h3 i{
+    color: red;
+}
+
+.navbar_1{
+    padding-right: 100px;
+    text-align: right;
+}
+.navbar_1 ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 10px;
+}
+
+
+/* First Header Ends */
+
+nav1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 5vh;
+    text-align: center;
+    background-color: rgb(214, 195, 87);
+}
+nav1 ul{
+    list-style: none;
+}
+nav1 ul li{
+    position: relative;
+    display: inline-block;
+}
+nav1 ul li a{
+    padding: 15px;
+    color: black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+nav1 ul li a:hover{
+    color: blue;
+    transition: 0.5s;
+}
+
+/* Second Header Ends */
+
+.text_box{
+    margin-top: 50px;
+    text-align: center;
+}
+.text_box h1{
+    font-size: 50px;
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text_box p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-bottom: 2px;
+}
+
+/* Third Header Ends */
+
+.header3{
+    margin-top: 200px;
+    border: 5px;
+    background-color: black;
+    margin-left: 50px;
+    margin-right: 600px;
+    opacity: 0.5;
+}
+.header3 ul{
+    list-style: none;
+}
+.header3 ul li{
+    position: relative;
+    display: inline-block;
+    padding: 8px;
+    
+}
+.header3 ul li a{
+    padding: 7px;
+    color: white;
+    text-decoration: none;
+    /* font-size: 15px; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header3 ul li a:hover{
+    background-color: blue;
+    transition: 2s;
+    border-bottom-color: red;
+    font-size: 8px;
+}
+
+/* Fourth Header Ends */
+
+.container{
+    display: flex;
+    border: 5px;
+    background-color: black;
+    margin-left: 50px;
+    margin-right: 350px;
+    opacity: 0.5;
+    height: 14vh;
+}
+.container .container_lo{
+    color: white;
+    margin-left: 17px;
+}
+.container .container_lo p{
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container .container_lo .container_loin{
+    width: 300px;
+    height: 5vh;
+    border: none;
+}
+.container .container_in{
+    color: white;
+}
+.container .container_in p{
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container .container_in .container_inin{
+    width: 130px;
+    height: 5vh;
+    border: none;
+}
+.container .container_out{
+    color: white;
+}
+.container .container_out p{
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container .container_out .container_outin{
+    width: 130px;
+    height: 5vh;
+    border: none;
+}
+.container .container_ad{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container .container_ad select{
+    height: 5vh;
+    /* width: 90px; */
+    padding-left: 20px;
+    border: none;
+    margin-top: 18px;
+}
+.container .container_ad p{
+    padding-top: 10px;
+    padding-left: 14px;
+}
+.container .container_ch{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container .container_ch select{
+    height: 5vh;
+    /* width: 90px; */
+    padding-left: 20px;
+    margin-top: 18px;
+    border: none;
+}
+.container .container_ch p{
+    padding-top: 10px;
+    padding-left: 13px;    
+}
+.search{
+    color: white;
+    margin-top: 46px;
+}
+.search input{
+    height: 5vh;
+    border: none;
+    width: 250px;
+    background-color: rgb(248, 180, 7);
+    font-size: 15px;
+}
+
+/* Fifth Header Ends */
+
+.row{
+    display: flex;
+    margin-top: 0px;
+    box-sizing: border-box;
+    cursor: pointer;
+    background: white;
+    /* padding: 0% 400px; */
+    height: 20vh;
+    opacity: 0.5;
+}
+.row .row_one{
+    display: flex;
+    padding-top: 60px;
+}
+.row .row_one h3{
+    margin-left: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Sixth Header Ends */
+
+.airport{
+    text-align: center;
+    padding-top: 50px;
+}
+.airport h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box{
+    margin-top: 25px;
+    display: flex;
+}
+.layer{
+    flex-basis: 22%;
+    margin: auto;
+    position: relative}
+}
+.layer .layer_one{
+    position: absolute;
+}
+.layer img{
+    width: 100%;  
+}
+
+
+
+/* Seventh Header Ends */
+
+footer{
+    background: gray;
+    opacity: 0.5;
+    height: auto;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 120px;
+    color: black;
+}
+.footer_content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer_content h3{
+    color: black;
+
+}
+.footer_content p{
+    color: black;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.socials li{
+    margin-top: 15px;
+}
+.socials li a{
+    text-decoration: none;
+    color: black;
+    padding: 13px;
+}
+.socials li a:hover{
+    color: blue;
+    transition: 1s;
+}
+.footer_bottom{
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
